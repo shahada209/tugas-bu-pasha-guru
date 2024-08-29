@@ -6,6 +6,48 @@ public class Guru {
     String mapel;
     String alamat;
 
+    public String getGuru() {
+        return this.Guru;
+    }
+
+    public void setGuru(String Guru) {
+        this.Guru = Guru;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNama() {
+        return this.nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getMapel() {
+        return this.mapel;
+    }
+
+    public void setMapel(String mapel) {
+        this.mapel = mapel;
+    }
+
+    public String getAlamat() {
+        return this.alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+
+
     // Construktor nama sama dgn nama class
     public Guru() {
     
